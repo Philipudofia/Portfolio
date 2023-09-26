@@ -122,8 +122,8 @@ function caousel() {
     })
 }
 
-const feedBackBtn = document.getElementById('feedback')
+// const feedBackBtn = document.getElementById('feedback')
 
-feedBackBtn.addEventListener('click', function(){
-    
-})
+// feedBackBtn.addEventListener('click', function(){
+
+// })
