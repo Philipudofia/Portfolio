@@ -121,3 +121,9 @@ function caousel() {
         e.style.transform = `translateX(-${counter * 100}%)`
     })
 }
+
+const feedBackBtn = document.getElementById('feedback')
+
+feedBackBtn.addEventListener('click', function(){
+    
+})
