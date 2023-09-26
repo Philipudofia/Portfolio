@@ -596,6 +596,10 @@ nav {
   opacity: .7;
 }
 
+.header2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .skillsContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -710,7 +714,8 @@ nav {
 
 .skillsContainer .skillsContainer2 .programs h2 {
   font-weight: 300;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skillsContainer .skillsContainer2 .programs h2 i {
