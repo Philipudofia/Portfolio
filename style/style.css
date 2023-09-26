@@ -610,7 +610,7 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 60%;
+  width: 40%;
   position: relative;
   margin-top: 3rem;
   -webkit-box-shadow: 0px 0px 5px var(--text2);
@@ -704,9 +704,9 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -729,11 +729,7 @@ nav {
 }
 
 .skillsContainer .skillsContainer2 .programs .skill {
-  height: 8rem;
-  width: 8rem;
-  background: var(--text2);
   position: relative;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -745,6 +741,14 @@ nav {
           justify-content: center;
   font-family: "Calibri";
   border: 1px solid var(--bg);
+  color: var(--text);
+  opacity: .5;
+}
+
+.skillsContainer .skillsContainer2 .programs .skill p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-style: oblique;
 }
 
 .skillsContainer .skillsContainer2 .programs .skill .outer {
@@ -832,7 +836,8 @@ nav {
 
 @media screen and (max-width: 769px) {
   .skillsContainer {
-    width: 70%;
+    min-height: 20rem;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
