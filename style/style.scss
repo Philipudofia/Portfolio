@@ -617,38 +617,20 @@ nav{
        }
     }
 }
-@media screen and (max-width:769px) {
-    .projects{
-        .projectContainer{
-            width: 70%;
-            .projectss{
-                width: 18rem;
-                object-fit: contain;
-                a{
-                    h2{
-                        font-size: 1rem;
-                    }
-                    img{
-                        width: 18rem;
-                    }
-                }
-            }
-        }
-    }
-}
 .contacts{
+    display: flex;
     .contact1{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content:center;
-        width: 100%;
+        width: 60%;
         .contactText{
             display: flex;
             flex-direction: column;
             color: var(--text);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            width: 50%;
+            width: 100%;
             p{
                 font-weight: bolder;
                 color: var(--line);
@@ -698,7 +680,7 @@ nav{
             margin-top: 4rem;
             display: grid;
             grid-template-columns: repeat(2, auto);
-            width: 50%;
+            width: 100%;
             a{
                 width: 100%;
                 color: var(--text);
@@ -713,6 +695,36 @@ nav{
                 font-size: 1.2rem;
                 color: var(--text);
                 opacity: .7;
+            }
+        }
+        @media screen and (max-width:767px){
+            .contactss{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    @media screen and (max-width:767px){
+        .contact1{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:769px) {
+    .projects{
+        .projectContainer{
+            width: 70%;
+            .projectss{
+                width: 18rem;
+                object-fit: contain;
+                a{
+                    h2{
+                        font-size: 1rem;
+                    }
+                    img{
+                        width: 18rem;
+                    }
+                }
             }
         }
     }
