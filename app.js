@@ -32,7 +32,7 @@ window.addEventListener('scroll', function(){
             styleNavlinks(e)
         } else if (e.dataset.name === 'projects' && scrollPos > 820) {
             styleNavlinks(e)
-        }else if (e.dataset.name === 'contacts' && scrollPos > 1051) {
+        }else if (e.dataset.name === 'contact' && scrollPos > 1051) {
             styleNavlinks(e)
         }
     })
