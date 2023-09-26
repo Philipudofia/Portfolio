@@ -387,7 +387,7 @@ nav{
     position: relative;
     margin-top: 3rem;
     box-shadow: 0px 0px 5px var(--text2);
-    height: 20rem;
+    min-height: 20rem;
     .slidingBtns{
         position: absolute;
         height: 100%;
@@ -431,7 +431,7 @@ nav{
         position: relative;
         overflow-x:hidden;
         overflow-y: visible;
-        height: 20rem;
+        min-height: 20rem;
         .programs{
             width:100%;
             display: flex;
