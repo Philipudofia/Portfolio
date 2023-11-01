@@ -547,16 +547,16 @@ nav {
 }
 .projects .projectContainer {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
   height: 100%;
 }
 .projects .projectContainer .projectss {
   height: auto;
   margin-top: 2rem;
   box-shadow: 0px 0px 4px var(--text2);
-  width: 70%;
+  width: 45%;
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
@@ -567,23 +567,18 @@ nav {
 .projects .projectContainer .projectss img {
   border-top-right-radius: 0.8rem;
   border-top-left-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
   height: 17rem;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
 }
-.projects .projectContainer .projectss p {
-  font-weight: bolder;
-  font-family: "Quicksand", sans-serif;
-  font-size: 1rem;
-  text-decoration: none;
-  color: var(--text);
-  opacity: 0.6;
-}
-.projects .projectContainer .projectss a {
+.projects .projectContainer .projectss .hoverer {
   position: absolute;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 100%;
   width: 100%;
@@ -591,18 +586,28 @@ nav {
   border-radius: 0.8rem;
   opacity: 0;
 }
-.projects .projectContainer .projectss a:hover {
+.projects .projectContainer .projectss .hoverer:hover {
   opacity: 1;
   transition: all 0.4s ease;
 }
-.projects .projectContainer .projectss a p {
-  background-color: var(--bg);
-  height: 3rem;
-  color: var(--text);
-  width: 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.projects .projectContainer .projectss .hoverer p {
+  font-weight: bolder;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--bg);
+  opacity: 8;
+  margin-bottom: 2rem;
+}
+.projects .projectContainer .projectss .hoverer div i {
+  margin-right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  color: var(--bg);
+}
+.projects .projectContainer .projectss .hoverer div i:hover {
+  color: rgb(167, 183, 199);
+  transition: all 0.3s ease;
 }
 @media screen and (max-width: 769px) {
   .projects .projectContainer .projectss {
