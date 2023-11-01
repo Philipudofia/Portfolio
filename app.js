@@ -123,12 +123,15 @@ function caousel() {
 }
 
 const feedBackBtn = document.getElementById('feedback')
-const comment = document.getElementById('comment')
-const namer = document.getElementById('name')
-const email = document.getElementById('email')
+let comment = document.getElementById('comment')
+let namer = document.getElementById('name')
+let email = document.getElementById('email')
+let feedbackToast = document.querySelector(".toast")
+
 feedBackBtn.addEventListener('click', function(e){
     e.preventDefault()
-    comment.innerText ="";
-    namer.innerText ="";
-    email.innerText ="";
+    comment.value = "";
+    namer.value ="";
+    email.value ="";
+    
 })

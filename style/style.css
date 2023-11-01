@@ -678,6 +678,10 @@ nav {
   background-color: #e3e3ec;
   opacity: 0.8;
 }
+.contacts .contact1 .contactText .toast {
+  display: none;
+  color: var(--text2);
+}
 .contacts .contact1 .contactText button {
   height: 3rem;
   width: 100%;

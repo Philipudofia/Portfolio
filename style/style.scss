@@ -667,6 +667,10 @@ nav{
                 background-color:#e3e3ec;
                 opacity: .8;
             }
+            .toast{
+                display: none;
+                color: var(--text2);
+            }
             button{
                 height: 3rem;
                 width: 100%;
