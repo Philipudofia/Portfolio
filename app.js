@@ -122,8 +122,13 @@ function caousel() {
     })
 }
 
-// const feedBackBtn = document.getElementById('feedback')
-
-// feedBackBtn.addEventListener('click', function(){
-
-// })
+const feedBackBtn = document.getElementById('feedback')
+const comment = document.getElementById('comment')
+const namer = document.getElementById('name')
+const email = document.getElementById('email')
+feedBackBtn.addEventListener('click', function(e){
+    e.preventDefault()
+    comment.innerText ="";
+    namer.innerText ="";
+    email.innerText ="";
+})

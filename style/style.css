@@ -610,11 +610,17 @@ nav {
   transition: all 0.3s ease;
 }
 @media screen and (max-width: 769px) {
+  .projects .projectContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   .projects .projectContainer .projectss {
-    width: 18rem;
+    width: auto;
   }
   .projects .projectContainer .projectss img {
-    width: 18rem;
+    width: 20rem;
   }
 }
 

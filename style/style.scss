@@ -595,10 +595,14 @@ nav{
     }
     @media screen and (max-width:769px){
         .projectContainer{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
             .projectss{
-                width: 18rem;
+                width: auto;
                 img{
-                    width: 18rem;
+                    width: 20rem;
                 }
             }
         }
