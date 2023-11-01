@@ -670,6 +670,10 @@ nav{
                 margin-bottom: 2rem;
                 font-family: 'Quicksand', sans-serif;
                 font-size: 1.2rem;
+                &:hover{
+                    color: var(--text2);
+                    transition: all 0.3s ease;
+                }
             }
             p{
                 font-family: 'Quicksand', sans-serif;

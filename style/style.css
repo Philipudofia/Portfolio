@@ -690,6 +690,10 @@ nav {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
 }
+.contacts .contact1 .contactss a:hover {
+  color: var(--text2);
+  transition: all 0.3s ease;
+}
 .contacts .contact1 .contactss p {
   font-family: "Quicksand", sans-serif;
   font-size: 1.2rem;
