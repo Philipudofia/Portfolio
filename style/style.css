@@ -623,6 +623,16 @@ nav {
     width: 20rem;
   }
 }
+@media screen and (max-width: 400px) {
+  .projects .projectContainer .projectss img {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 250px) {
+  .projects .projectContainer .projectss img {
+    width: 10rem;
+  }
+}
 
 .contacts {
   display: flex;

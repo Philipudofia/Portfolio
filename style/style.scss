@@ -607,6 +607,24 @@ nav{
             }
         }
     }
+    @media screen and (max-width:400px){
+        .projectContainer{
+            .projectss{
+                img{
+                    width: 15rem;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:250px){
+        .projectContainer{
+            .projectss{
+                img{
+                    width: 10rem;
+                }
+            }
+        }
+    }
 }
 .contacts{
     display: flex;
